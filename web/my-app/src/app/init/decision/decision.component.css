@@ -1,0 +1,12 @@
+div{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 350px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

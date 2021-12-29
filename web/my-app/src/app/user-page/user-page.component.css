@@ -1,0 +1,32 @@
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+img {
+    animation: blink 2s;
+    animation-iteration-count: infinite;
+    height: 50px;
+}
+
+#main{
+    background-color: rgb(17, 15, 17);
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    margin-top: 250px;
+    color: whitesmoke;
+}
+#infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}

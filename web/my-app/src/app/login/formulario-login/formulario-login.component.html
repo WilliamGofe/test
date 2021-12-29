@@ -1,0 +1,16 @@
+<form [formGroup]="formUser" (ngSubmit)="onSubmit()" class= "w-25 m-5" href="userPage">
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name="email" id="email" required formControlName="email">
+    </div>
+
+    <div class="form-group">
+        <label for="password">Senha</label>
+        <input type="password" class="form-control" name="password" id="password" required formControlName="password">
+    </div>
+  
+    <button type="submit" onclick= 'onSubmit()'  class="btn btn-primary mt-4">Login</button>
+    <a href="#" class="btn btn-secondary mt-4 ml-2">Voltar</a>
+  
+  </form>
